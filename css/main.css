@@ -12,15 +12,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-    font-family: OpenSansReg;
-    src: url("../assets/OpenSans-Regular.ttf");
+    font-family: 'OpenSansReg';
+    src: url('../assets/OpenSans-Regular.woff2') format('woff2'),
+        url('../assets/OpenSans-Regular.woff') format('woff'),
+        url('../assets/OpenSans-Regular.ttf') format('truetype');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: OpenSansLight;
-    src: url("../assets/OpenSans-Light.ttf");
+    font-family: 'OpenSansLight';
+    src: url('../assets/OpenSans-Light.woff2') format('woff2'),
+        url('../assets/OpenSans-Light.woff') format('woff'),
+        url('../assets/OpenSans-Light.ttf') format('truetype');
 }
+
 
 body {
     line-height: 1
