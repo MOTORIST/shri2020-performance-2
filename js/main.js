@@ -1,23 +1,5 @@
 "use strict";
 
-$('.card').each(function(e) {
-    if ($(this).hasClass('card_size_s')) {
-        $(this).css({'border-radius': '22px'})
-    } else {
-        $(this).css({'border-radius': '54px'})
-    }
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    $('.card').each(function(e) {
-        if ($(this).hasClass('card_size_s')) {
-            $(this).css({'border-radius': '22px'})
-        } else {
-            $(this).css({'border-radius': '23px'})
-        }
-    });
-});
-
 document.addEventListener("DOMContentLoaded", function () {
     const buttonsContainer = document.querySelector(".buttons-wrap");
     const fridgeInfoContainer = document.querySelector(".card_size_m:nth-child(8) .card-description");
