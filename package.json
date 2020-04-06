@@ -1,0 +1,23 @@
+{
+  "name": "shri2020-perfomance-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MOTORIST/shri2020-performance-2.git",
+  "author": "Gerasin Ivan <webartmotor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "resolve-url-loader": "^3.1.1",
+    "terser-webpack-plugin": "^2.3.5",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
