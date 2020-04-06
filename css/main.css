@@ -441,7 +441,11 @@ html {
 }
 
 html {
-    overflow: scroll
+    overflow: scroll;
+}
+
+.purchase-list-wrap {
+    display: none;
 }
 
 @media (max-width: 1230px) {
