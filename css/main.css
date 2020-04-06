@@ -305,6 +305,7 @@ html {
     border-radius: 20px;
     background-size: cover;
     background-position: 0 0;
+    background-size: 100%;
     touch-action: none;
 
     background-position: 0px 0px;
