@@ -338,7 +338,7 @@ html {
 
 .climat-block {
     display: inline-block;
-    padding-right: 48px;
+    padding-right: 53px;
     padding-bottom: 11px
 }
 
@@ -438,7 +438,7 @@ html {
     background: #e5e5e5;
     font-size: 20px;
     font-weight: 700;
-    margin-right: 18px
+    margin-right: 14px;
 }
 
 .button_yellow {
@@ -451,6 +451,10 @@ html {
 
 .purchase-list-wrap {
     display: none;
+}
+
+.card-icon-cam {
+    overflow: hidden;
 }
 
 @media (max-width: 1230px) {
